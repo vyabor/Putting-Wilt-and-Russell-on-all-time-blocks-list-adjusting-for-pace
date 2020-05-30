@@ -1,0 +1,2 @@
+# Putting-Wilt-and-Russell-on-all-time-blocks-list-adjusting-for-pace
+Using data from stats.nba.com as well as user gathered data on blocked shots per game of Wilt Chamberlain and Bill Russell found at https://www.reddit.com/r/nba/comments/3s9669/heres_135_nba_games_where_blocked_shot_data/ , the following is a function to append the all time leaderboard in blocks per game to have Wilt Chamberlain and Bill Russell adjusted for pace.
