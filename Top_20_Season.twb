@@ -1,0 +1,382 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20202.20.0415.1946                               -->
+<workbook original-version='18.1' source-build='2020.2.0 (20202.20.0415.1946)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <IntuitiveSorting />
+    <IntuitiveSorting_SP2 />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <style>
+    <_.fcp.MarkAnimation.true...style-rule element='animation'>
+      <format attr='animation-on' value='ao-on' />
+    </_.fcp.MarkAnimation.true...style-rule>
+  </style>
+  <datasources>
+    <datasource caption='adjusted_top20_season_blocks' inline='true' name='federated.1khp1wq1il7o2m1aks7xg0uvpddf' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='adjusted_top20_season_blocks' name='textscan.1o3v7ir0nkdyop14e6r631ndx0s6'>
+            <connection class='textscan' cleaning='yes' compat='no' csvFile='C:/Users/User/Desktop/Python/Projects/Self/Wilt and Russell Blocks/Adjusted for Pace/adjusted_top20_season_blocks.csv' dataRefreshTime='' directory='C:/Users/User/Desktop/Python/Projects/Self/Wilt and Russell Blocks/Adjusted for Pace' filename='C:/Users/User/AppData/Local/Temp/TableauTemp/0h96r4p0fc2yb01ghulr00ejh740/adjusted_top20_season_blocks.csv.xlsx' interpretationMode='8' password='' server='' validate='no' />
+          </named-connection>
+          <named-connection caption='adjusted_top20_season_blocks (2)' name='textscan.1gmaq1v0209uh91glnxub1iebhhy'>
+            <connection class='textscan' directory='C:/Users/User/Desktop/Python/Projects/Self/Wilt and Russell Blocks/Adjusted for Pace' filename='adjusted_top20_season_blocks.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.1gmaq1v0209uh91glnxub1iebhhy' name='adjusted_top20_season_blocks.csv' table='[adjusted_top20_season_blocks#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+            <column datatype='integer' name='F1' ordinal='0' />
+            <column datatype='integer' name='PLAYER_ID' ordinal='1' />
+            <column datatype='string' name='PLAYER_NAME' ordinal='2' />
+            <column datatype='real' name='BLK' ordinal='3' />
+            <column datatype='integer' name='BLK_RANK' ordinal='4' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='textscan.1gmaq1v0209uh91glnxub1iebhhy' name='adjusted_top20_season_blocks.csv' table='[adjusted_top20_season_blocks#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+            <column datatype='integer' name='F1' ordinal='0' />
+            <column datatype='integer' name='PLAYER_ID' ordinal='1' />
+            <column datatype='string' name='PLAYER_NAME' ordinal='2' />
+            <column datatype='real' name='BLK' ordinal='3' />
+            <column datatype='integer' name='BLK_RANK' ordinal='4' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[adjusted_top20_season_blocks.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F1</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[F1]</local-name>
+            <parent-name>[adjusted_top20_season_blocks.csv]</parent-name>
+            <remote-alias>F1</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[adjusted_top20_season_blocks.csv_D7386F3071874147A825FB7A0D6C3DEC]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PLAYER_ID</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[PLAYER_ID]</local-name>
+            <parent-name>[adjusted_top20_season_blocks.csv]</parent-name>
+            <remote-alias>PLAYER_ID</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[adjusted_top20_season_blocks.csv_D7386F3071874147A825FB7A0D6C3DEC]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PLAYER_NAME</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[PLAYER_NAME]</local-name>
+            <parent-name>[adjusted_top20_season_blocks.csv]</parent-name>
+            <remote-alias>PLAYER_NAME</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[adjusted_top20_season_blocks.csv_D7386F3071874147A825FB7A0D6C3DEC]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>BLK</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[BLK]</local-name>
+            <parent-name>[adjusted_top20_season_blocks.csv]</parent-name>
+            <remote-alias>BLK</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[adjusted_top20_season_blocks.csv_D7386F3071874147A825FB7A0D6C3DEC]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>BLK_RANK</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[BLK_RANK]</local-name>
+            <parent-name>[adjusted_top20_season_blocks.csv]</parent-name>
+            <remote-alias>BLK_RANK</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[adjusted_top20_season_blocks.csv_D7386F3071874147A825FB7A0D6C3DEC]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='Blk Rank' datatype='integer' name='[BLK_RANK]' role='measure' type='quantitative' />
+      <column caption='Player Id' datatype='integer' name='[PLAYER_ID]' role='dimension' type='ordinal' />
+      <column caption='Player Name' datatype='string' name='[PLAYER_NAME]' role='dimension' type='nominal' />
+      <_.fcp.ObjectModelTableType.true...column caption='adjusted_top20_season_blocks.csv' datatype='table' name='[__tableau_internal_object_id__].[adjusted_top20_season_blocks.csv_D7386F3071874147A825FB7A0D6C3DEC]' role='measure' type='quantitative' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='adjusted_top20_season_blocks.csv' id='adjusted_top20_season_blocks.csv_D7386F3071874147A825FB7A0D6C3DEC'>
+            <properties context=''>
+              <relation connection='textscan.1gmaq1v0209uh91glnxub1iebhhy' name='adjusted_top20_season_blocks.csv' table='[adjusted_top20_season_blocks#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+                  <column datatype='integer' name='F1' ordinal='0' />
+                  <column datatype='integer' name='PLAYER_ID' ordinal='1' />
+                  <column datatype='string' name='PLAYER_NAME' ordinal='2' />
+                  <column datatype='real' name='BLK' ordinal='3' />
+                  <column datatype='integer' name='BLK_RANK' ordinal='4' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Sheet 1'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Top 20 Regular Season Leaders in Blocks Per Game</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='adjusted_top20_season_blocks' name='federated.1khp1wq1il7o2m1aks7xg0uvpddf' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1khp1wq1il7o2m1aks7xg0uvpddf'>
+            <column datatype='real' name='[BLK]' role='measure' type='quantitative' />
+            <column caption='Player Name' datatype='string' name='[PLAYER_NAME]' role='dimension' type='nominal' />
+            <column-instance column='[PLAYER_NAME]' derivation='None' name='[none:PLAYER_NAME:nk]' pivot='key' type='nominal' />
+            <column-instance column='[BLK]' derivation='Sum' name='[sum:BLK:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <shelf-sorts>
+            <shelf-sort-v2 dimension-to-sort='[federated.1khp1wq1il7o2m1aks7xg0uvpddf].[none:PLAYER_NAME:nk]' direction='ASC' is-on-innermost-dimension='true' measure-to-sort-by='[federated.1khp1wq1il7o2m1aks7xg0uvpddf].[sum:BLK:qk]' shelf='columns' />
+          </shelf-sorts>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='mark'>
+            <encoding attr='size-bar' field='[federated.1khp1wq1il7o2m1aks7xg0uvpddf].[sum:BLK:qk]' field-type='quantitative' max-size='1' min-size='0.005' type='centersize' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='true' />
+                <format attr='size' value='1.5602209568023682' />
+                <format attr='mark-color' value='#4e79a7' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.1khp1wq1il7o2m1aks7xg0uvpddf].[sum:BLK:qk]</rows>
+        <cols>[federated.1khp1wq1il7o2m1aks7xg0uvpddf].[none:PLAYER_NAME:nk]</cols>
+      </table>
+      <simple-id uuid='{53F753D5-208A-4A49-BDC1-7BEC113742A4}' />
+    </worksheet>
+    <worksheet name='Sheet 2'>
+      <table>
+        <view>
+          <datasources />
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{E6C52C5F-3EC9-4B3F-99AD-DD0F9FD8C579}' />
+    </worksheet>
+  </worksheets>
+  <windows source-height='30'>
+    <window class='worksheet' maximized='true' name='Sheet 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.1khp1wq1il7o2m1aks7xg0uvpddf].[none:PLAYER_NAME:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{3855A77D-3681-44D1-88DD-D43C2603CC8F}' />
+    </window>
+    <window class='worksheet' name='Sheet 2'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{4A287141-6AD4-489B-83FF-FDE97641426A}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Sheet 1' width='192'>
+      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
+      RK5CYII=
+    </thumbnail>
+    <thumbnail height='192' name='Sheet 2' width='192'>
+      iVBORw0KGgoAAAANSUhEUgAAAMAAAADACAYAAABS3GwHAAAACXBIWXMAAA7DAAAOwwHHb6hk
+      AAACFUlEQVR4nO3TMQEAIAzAMMC/5yFjRxMFfXpnZg5Eve0A2GQA0gxAmgFIMwBpBiDNAKQZ
+      gDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFI
+      MwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQD
+      kGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBp
+      BiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA
+      0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDN
+      AKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxA
+      mgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZ
+      gDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFI
+      MwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKR9Y+0F
+      fBUOM1sAAAAASUVORK5CYII=
+    </thumbnail>
+  </thumbnails>
+</workbook>
