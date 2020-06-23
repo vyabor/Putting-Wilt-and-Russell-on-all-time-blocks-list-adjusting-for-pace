@@ -1,4 +1,6 @@
 # Putting-Wilt-and-Russell-on-all-time-blocks-list-adjusting-for-pace
+UPDATED Tableau worksheet at https://public.tableau.com/profile/vincent.yabor#!/vizhome/AdjustedTop20BlocksPerGameLeaders/Dashboard1
+
 Using data from stats.nba.com as well as user gathered data on blocked shots per game of Wilt Chamberlain and Bill Russell found at https://www.reddit.com/r/nba/comments/3s9669/heres_135_nba_games_where_blocked_shot_data/ , the following is a function to append the all time leaderboard in blocks per game to have Wilt Chamberlain and Bill Russell adjusted for pace.
 
 From the data found on reddit, Wilt Chamberlain averaged 8.8 blocks per game (651 blocks in 74 games) in the regular season as well as 8.3 blocks per game (316 blocks in 38 games) in the playoffs.
